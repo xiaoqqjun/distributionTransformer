@@ -23,7 +23,8 @@ devtools::install_github("yourusername/distributionTransformer")
 
 ```r
 library(distributionTransformer)
-
+library(ggplot2)
+library(gridExtra)
 # 创建示例数据
 data <- data.frame(
   normal = rnorm(100),
